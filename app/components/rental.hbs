@@ -1,6 +1,6 @@
 <article class="rental">
   <Rental::Image
-
+    src={{@rental.image}}
     alt="A picture of {{@rental.title}}"
   />
   <div class="details">
@@ -29,7 +29,6 @@
     @zoom="9"
     @width="150"
     @height="150"
-alt="A map of Grand Old Mansion"
     alt="A map of {{@rental.title}}"
   />
 </article>
